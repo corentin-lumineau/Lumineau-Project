@@ -1,4 +1,5 @@
-/*@import url("components/banner.css"); */
+@import url("../css/components/banner.css");
+@import url("../css/components/navBar.css");
 
 
 @font-face {
@@ -12,6 +13,7 @@
     font-style: normal;
 
 }  
+
 
 body{
   background: #2B4659;
@@ -47,25 +49,6 @@ li{
   list-style: none;
 }
 
-#banner{
-  text-align: center;
-  background-image: url("");
-  background-size: cover;
-  padding: 150px;
-  text-shadow: 1px 1px 5px black;
-  border-radius: 10px;
-
-}
-#banner h1 {
-  color: white;
-  font-size: 50px;
-}
-#banner p {
-  color: white;
-  opacity: 0.8;
-  font-size: 30px;
-  font-weight: lighter;
-}
 
 .container h2 {
   font-size: 20px;
@@ -79,29 +62,6 @@ li{
   text-align: center;
 }
 
-.Elf :hover {
-color : white;
-}
-
-#footer{
-  padding: 30px;
-  background: rgb(30, 30, 30);
-  color: lightgrey;
-}
-
-#footer p {
-  text-align: center;
-}
-
-#footer a {
-  text-align: center;
-}
-
-
-.card{
-  padding: 50px;
-  font-weight: lighter;
-}
 
 
 
