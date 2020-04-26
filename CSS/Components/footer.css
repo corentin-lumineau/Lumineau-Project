@@ -1,0 +1,13 @@
+#footer{
+  padding: 30px;
+  background: rgb(30, 30, 30);
+  color: lightgrey;
+}
+
+#footer p {
+  text-align: center;
+}
+
+#footer a {
+  text-align: center;
+}

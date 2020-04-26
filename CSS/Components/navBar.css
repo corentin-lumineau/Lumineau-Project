@@ -1,0 +1,39 @@
+.navBar{
+
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background-color: #2B4659;
+}
+
+}
+
+.btn-accueil {
+
+	padding: 20px !important;
+    display: inline-block !important;
+    min-width: 10px !important;
+    line-height: 1 !important;
+    color: #fff !important;
+    text-align: center !important;
+    white-space: nowrap !important;
+    vertical-align: baseline !important;
+    background-color: #777 !important;
+    border-radius: 10px !important;
+}
+
+.btn-accueil:hover{
+	opacity: 0.5;
+}
+
+.btn-MonRoyaume:hover{
+	opacity: 0.5;
+}
+
+.btn-MesTroupes:hover{
+	opacity: 0.5;
+}
+
+.btn-logout:hover{
+	opacity: 0.5;
+}
