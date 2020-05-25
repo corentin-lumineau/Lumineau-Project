@@ -2,25 +2,14 @@
 @import url("../css/components/navBar.css");
 
 
-@font-face {
-    font-family: 'alpha_echoregular';
-    src: url('alpha_echo-webfont.eot');
-    src:
-        url('police/alpha_echo-webfont.woff') format('woff'),
-        url('police/alpha_echo-webfont.ttf') format('truetype'),
-        url('police/alpha_echo-webfont.svg#alpha_echoregular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-}  
 
 @font-face {
     font-family: 'Cinzel';
-    src: url('Cinzel-Black.eot');
+    src: url('Cinzel-Regular.eot');
     src:
-        url('police/Cinzel-Black.woff') format('woff'),
-        url('police/Cinzel-Black.ttf') format('truetype'),
-        url('police/Cinzel-Black.svg#alpha_echoregular') format('svg');
+        url('police/Cinzel-Regular.woff') format('woff'),
+        url('police/Cinzel-Regular.ttf') format('truetype'),
+        url('police/Cinzel-Regular.svg#alpha_echoregular') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -29,19 +18,20 @@
 
 
 body{
-  background: #2B4659;
+  background: black;
   font-size: 25px;
   font-family: Cinzel;
+  color: white;
   
 }
 h1{
-  font-family: alpha_echoregular;
+  font-family: Cinzel;
   color: red;
   font-weight: lighter;
   font-size: 10px;
 }
 h2 {
-  font-family: alpha_echoregular;
+  font-family: Cinzel;
   color: pink;
   font-weight: lighter;
   font-size: 8px;
