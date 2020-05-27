@@ -4,8 +4,13 @@
 	justify-content: space-between;
 	align-items: center;
 	background-color: #000000;
+	position: relative;
 }
 
+.logo {
+	
+
+}
 
 .logo:hover{
 	opacity: 0.5;
