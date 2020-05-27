@@ -1,0 +1,16 @@
+.list-festival {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px;
+	transition: all 0.5s ease;
+	border-radius: 10px;
+	padding: 150px;
+}
+
+.festival:hover {
+
+font-size: 40px;
+background-color: none;
+transition: all 1s ease;
+}
